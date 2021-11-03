@@ -7,7 +7,7 @@
 
 #### -all of the commands in brackets can be copied into the terminal
 ##### to use this script pls do the followng things:
-##### 1) install Python package using "pip install -r requrements.txt"
+##### 1) install Python package requests using "pip install -r requrements.txt" or pip install requests
 ##### 2) open api_lesson1_weather.py by command "vim api_lesson1_weather.py"
 ##### 3) Find the list cities, and, if you want, add some other city into the list
 ##### 4) Find the variable 'forecast_params'. You can find additional information at https://wttr.in/:help
