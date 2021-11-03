@@ -9,7 +9,7 @@ def show_forecast(cities: list,
        can be found at https://wttr.in/:help"""
     for city in cities:
         payload = {forecast_params: "", "lang": forecast_language}
-        url = 'https://wttr.in/' + city  # construct url using city
+        url = f'https://wttr.in/{city}'
         response = requests.get(url, params=payload)
         response.raise_for_status()
         print(response.text)
